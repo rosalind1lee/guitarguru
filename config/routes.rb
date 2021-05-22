@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-
+  get("/", { :controller => "pieces", :action => "index" })
 
   # Routes for the Favorite resource:
 
